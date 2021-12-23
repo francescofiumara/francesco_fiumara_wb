@@ -337,4 +337,37 @@ ul {
 
 /*---[Mobile]---*/
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
+
+  .nav {
+    display: none;
+  }
+  .nav p {
+    display: none;
+     }
+   .nav-bar li {
+      display: none;
+   }
+    .logo {
+      display: none;
+  }
+  .social-bar{
+    display: none;
+  }
+  .socila-bar ul{
+    display: none;
+  }
+  .social-bar ul li a {
+    display: none;
+  }
+  .bio{
+      margin-left:20px;
+  }
+  .intro img {
+    margin-left: 20px;
+}
+.sezioni-title {
+  padding-left: 20px;
+
+}
+}
