@@ -90,8 +90,7 @@ ul {
     align-items: center;
     padding: 2px;
     padding-top: 3px;
-    width: 100%;
-    height: 3rem;
+    height: auto;
     background-color: #F2F2F2;
     padding-left: 100px;
     padding-right: 100px;
@@ -101,7 +100,7 @@ ul {
 .nav p {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
-  padding-top: 5px;
+  padding-top: 3px;
   font-weight: 900;
   padding-left: 5px;
 
@@ -335,3 +334,7 @@ ul {
 #download:hover{
   font-size: 16px;
 }
+
+/*---[Mobile]---*/
+
+@media (min-width: 600px) {
