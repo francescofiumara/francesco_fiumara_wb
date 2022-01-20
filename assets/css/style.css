@@ -100,6 +100,8 @@ p, a {
 }
 .card img {
   width: 100%;
+  height: 350px;
+  object-fit: cover;
 }
 
 .card {
@@ -109,18 +111,18 @@ p, a {
   background: #F2F2F2;
   margin-bottom: 4rem;
 }
+.card > div {
+  padding: 2rem;
+}
 
 .card h3 {
   margin-bottom: 2rem;
   color: black;
+  font-size: 30px;
 }
 .card p {
   color: black;
-  font-size: 15px;
-}
-
-.card > div {
-  padding: 2rem;
+  font-size: 20px;
 }
 
 .card:nth-child(even) img {
