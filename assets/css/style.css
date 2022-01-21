@@ -83,6 +83,12 @@ p, a {
   padding-top: 30px;
   margin-top: 30px;
 }
+header a {
+  color: white;
+}
+header a:hover {
+  color: white;
+}
 
 /*---[Progetti]---*/
 
@@ -128,8 +134,9 @@ p, a {
 .card:nth-child(even) img {
   order: 2;
 }
-@media(max-width:600px) {
+@media(max-width:992px) {
   .card {
     display: block;
   }
+
 }
